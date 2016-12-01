@@ -16,4 +16,4 @@ $ dashboard [--port]
 
 ## License
 
-MIT © [Sean Wilson](https://imsean.me)
+Apache License 2.0 © [Sean Wilson](https://imsean.me)
