@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const args = require('minimist')(process.argv.slice(2))
+const opts = require('rc')('dashboard', {
+  port: 3000
+})
+const config = Object.assign(opts, args)
+const server = require('../server/server')
+
+server(config)

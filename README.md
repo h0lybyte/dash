@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-$ npm install --save dashboard-client
+$ npm install -g kbve/dashboard-client
 ```
 
 ## Usage
