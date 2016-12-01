@@ -10,9 +10,8 @@ $ npm install -g kbve/dashboard-client
 
 ## Usage
 
-```js
-var dashboardClient = require('dashboard-client');
-dashboardClient();
+```sh
+$ dashboard [--port]
 ```
 
 ## License
