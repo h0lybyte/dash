@@ -11,16 +11,35 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "server",
+    "app",
     "LICENSE"
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6"
   },
   "scripts": {
-    "test": "mocha"
+    "start": "node ./server/server.js"
   },
   "keywords": [
-    "generategenerator"
-  ]
+    "dashboard",
+    "kbve"
+  ],
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-sass": "^2.3.2",
+    "rc": "^1.1.6",
+    "vue": "^2.1.3",
+    "vue-router": "^2.1.0",
+    "vueify": "^9.3.0"
+  }
 }
