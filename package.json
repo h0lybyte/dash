@@ -1,0 +1,26 @@
+{
+  "name": "dashboard-client",
+  "description": "KBVE Dashboard",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/dashboard-client",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/dashboard-client",
+  "bugs": {
+    "url": "https://github.com/seanc/dashboard-client/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generategenerator"
+  ]
+}
